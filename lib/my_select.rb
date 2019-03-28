@@ -3,5 +3,3 @@ def my_select(collection)
   collection.find do |num|
     num.even?
 end
-
-
